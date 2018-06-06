@@ -1,0 +1,9 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "linebreak-style": "off",
+        "prefer-const": "warn",
+        "no-unused-vars": "warn",
+        "func-names": "off"
+    }
+}

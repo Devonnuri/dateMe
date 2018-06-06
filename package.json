@@ -1,0 +1,23 @@
+{
+  "name": "dateme",
+  "version": "1.0.0",
+  "description": "Summer JavaScript Study / 1st week : Making Library that handle Date Object",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devonnuri/dateMe.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Devonnuri/dateMe/issues"
+  },
+  "homepage": "https://github.com/Devonnuri/dateMe#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
