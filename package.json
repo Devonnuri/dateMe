@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Devonnuri/dateMe.git"
+    "url": "git+https://github.com/JeongmalSiruyo/dateMe.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Devonnuri/dateMe/issues"
+    "url": "https://github.com/JeongmalSiruyo/dateMe/issues"
   },
-  "homepage": "https://github.com/Devonnuri/dateMe#readme",
+  "homepage": "https://github.com/JeongmalSiruyo/dateMe#readme",
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0"
