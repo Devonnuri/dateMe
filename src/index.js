@@ -1,19 +1,14 @@
 module.exports = class DateMe {
+  constructor(date) {
+    this.date = date;
+  }
+
   static now() {
-    return this.from(new Date());
+    return new this(new Date());
   }
 
   static from(date) {
-    this.dateMe = new DateMe();
-
-    if (typeof date === 'string' || typeof date === 'number') {
-      this.dateMe.date = new Date(date);
-    } else if (date instanceof Date) {
-      this.dateMe.date = date;
-    } else {
-      this.dateMe.date = this.parse(date);
-    }
-    return this.dateMe;
+    return new this(this.parse(date));
   }
 
   static parse(date) {
