@@ -12,7 +12,9 @@ module.exports = class DateMe {
   }
 
   static parse(date) {
-    if (date instanceof Date) {
+    if (!date) {
+      return new Date();
+    } else if (date instanceof Date) {
       return date;
     } else if (typeof date === 'string' || typeof date === 'number') {
       return new Date(date);
