@@ -4,15 +4,15 @@ module.exports = class DateMe {
   }
 
   static now() {
-    return new this(new Date());
+    return new DateMe(new Date());
   }
 
   static from(date) {
-    return new this(this.parse(date));
+    return new DateMe(DateMe.parse(date));
   }
 
   static parse(date) {
-    if (!date) {
+    if (date === undefined || date === null) {
       return new Date();
     } else if (date instanceof Date) {
       return date;
