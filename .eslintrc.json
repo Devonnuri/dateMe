@@ -3,7 +3,6 @@
     "rules": {
         "linebreak-style": "off",
         "prefer-const": "warn",
-        "no-unused-vars": "warn",
-        "func-names": "off"
+        "no-unused-vars": "warn"
     }
 }
