@@ -1,6 +1,6 @@
 {
   "name": "dateme",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Summer JavaScript Study / 1st week : Making Library that handle Date Object",
   "main": "src/index.js",
   "scripts": {
